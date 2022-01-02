@@ -5,7 +5,8 @@
 // mod lifetime;
 // mod structs;
 // mod enums;
-mod traits;
+// mod traits;
+mod error_handling;
 fn main() {
     // println!("Hello, world!");
     // vars::run();
@@ -17,5 +18,6 @@ fn main() {
     // lifetime::run();
     // structs::run();
     // enums::run();
-    traits::run();
+    // traits::run();
+    error_handling::run();
 }
